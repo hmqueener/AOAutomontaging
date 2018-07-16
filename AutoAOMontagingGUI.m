@@ -57,6 +57,8 @@ function AutoAOMontagingGUI_OpeningFcn(hObject, eventdata, handles, varargin)
 % Choose default command line output for AutoAOMontagingGUI
 handles.output = hObject;
 
+fprintf('TODO: Add in getpref/setpref features and flexible file naming.\n')
+
 %allocate variables and defaults
 handles.outputFolder_name=[];
 handles.combinedFile_names=[];
